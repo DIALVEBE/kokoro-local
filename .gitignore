@@ -1,0 +1,15 @@
+.direnv/
+.env.local
+.venv/
+.agents/
+.codex/
+__pycache__/
+*.pyc
+*.egg-info/
+*.wav
+*.mp3
+*.ogg
+*.flac
+.python-version
+auxcodex.txt
+instructions.md

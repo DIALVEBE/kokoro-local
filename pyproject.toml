@@ -1,0 +1,21 @@
+[project]
+name = "kokoro-local"
+version = "0.1.0"
+description = "Sintesis de voz local con Kokoro TTS, Nix y uv"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "kokoro",
+    "numpy",
+    "soundfile",
+]
+
+[project.scripts]
+hablar = "hablar:main"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["hablar"]
